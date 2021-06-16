@@ -1,0 +1,16 @@
+import java utill.*
+class year
+{
+public static void main (string args[])
+{
+Scanner sc =new scanner(System.in);
+int main=0,day,year,rem;
+System.out.println("enter number");
+min=sc.nextInt();
+year=min/525600;
+rem=min%525600;
+day=rem/1440;
+System.out.println("years="+year and "days="+day);
+}
+
+}
